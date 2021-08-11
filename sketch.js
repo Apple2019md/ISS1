@@ -35,6 +35,9 @@ function setup() {
 }
 
 function draw() {
+  
+  drawSprites();
+  
   fill("white");
   text("Instructions:",10, 10);
   text("Up Arrow = Brushing",10, 13);
@@ -44,5 +47,5 @@ function draw() {
   text("M Key = Moving",10, 25);
   text("(Extra) G Key = Gravity;",10, 28);
 
-  drawSprites();
+  
 }
